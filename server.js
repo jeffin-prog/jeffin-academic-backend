@@ -10,8 +10,8 @@ app.use(express.json());
 const profile = {
   name: "Dr. Jeffin Gracewell",
   title: "Associate Professor & Research Scholar",
-  department: "Department of Computer Science & Engineering",
-  institution: "Your Institution Name",
+  department: "Department of Electronics and Communication Engineering",
+  institution: "Saveetha Engineering College, Chennai",
   location: "Nagercoil, Tamil Nadu, India",
   email: "jeffin@gracewell.in",
   phone: "+91 94000 00000",
@@ -46,35 +46,75 @@ const publications = [
   {
     id: 1,
     type: "Journal",
+    title: "Catalyzing Big Data Excellence: The Enhanced Data Placement Policy (EDPP) Revolution",
+    authors: "J. Gracewell, P. Ramya, S. Venkatesh Babu",
+    journal: "Egyptian Informatics Journal, Elsevier, Vol. 33, Article 100878",
+    year: 2026,
+    doi: null,
+    citations: null
+  },
+  {
+    id: 2,
+    type: "Conference",
+    title: "Explainable SLM-Guided Vision–Language Model for Multi-class Skin Lesion Recognition",
+    authors: "J. Jeffin Gracewell, J. Yuvaraj, S. Vikhram",
+    journal: "Lecture Notes in Networks and Systems, Vol. 2045, pp. 611–622, Springer Nature",
+    year: 2026,
+    doi: "10.1007/978-3-032-30310-3_49",
+    citations: null
+  },
+  {
+    id: 3,
+    type: "Book Chapter",
+    title: "NariRaksha: Gender-Responsive AI for Women's Safety",
+    authors: "Vikhram S., Jeffin Gracewell J.",
+    journal: "India AI Impact Summit 2026 Compendium – Real-World Impact of AI and Gender Empowerment, pp. 68–70 (UN Women & MeitY, Government of India)",
+    year: 2026,
+    doi: null,
+    citations: null
+  },
+  {
+    id: 4,
+    type: "Journal",
+    title: "CrossFormerGAN: Enhancing Pedestrian Trajectory Prediction in Autonomous Driving Through Advanced Attention Mechanisms and Transformer Architectures",
+    authors: "V. Nisha, G. L. Rose, J. Gracewell",
+    journal: "Cognitive Neurodynamics, Springer, Vol. 19, No. 1, Article 136",
+    year: 2025,
+    doi: null,
+    citations: null
+  },
+  {
+    id: 5,
+    type: "Journal",
     title: "Hierarchical Aspect-Based Sentiment Analysis Using Semantic Capsuled Multi-Granular Networks",
-    authors: "Jeffin Gracewell et al.",
-    journal: "Information Systems, Elsevier",
+    authors: "Jeffin Gracewell, A. Arul Edwin Raj Anthony Muthu, C. T. Kalaivani, R. Renugadevi",
+    journal: "Information Systems, Elsevier, Vol. 132, Article 102556",
     year: 2025,
     doi: "10.1016/j.is.2025.102556",
     citations: 2
   },
   {
-    id: 2,
+    id: 6,
     type: "Journal",
-    title: "VLSI Design and Hardware Implementation for Optimal Image Dehazing with Adaptive Bilateral Filtering",
-    authors: "A. Arul Edwin Raj, Nabihah Binti Ahmad, Jeffin Gracewell et al.",
-    journal: "Journal of Parallel and Distributed Computing, Elsevier",
+    title: "VLSI Design and Its Hardware Implementation for Optimal Image Dehazing with Adaptive Bilateral Filtering",
+    authors: "A. Arul Edwin Raj, Nabihah Binti Ahmad, J. Jeffin Gracewell, C. T. Kalaivani",
+    journal: "Journal of Parallel and Distributed Computing, Elsevier, Vol. 210, Article 105186",
     year: 2025,
     doi: "10.1016/j.jpdc.2025.105186",
     citations: 1
   },
   {
-    id: 3,
+    id: 7,
     type: "Journal",
-    title: "Enhancing Driver Assistance Systems with FPGA-Based Adaptive Image Processing Framework",
-    authors: "A. Arul Edwin Raj, Nabihah Binti Ahmad, J. Jeffin Gracewell et al.",
-    journal: "Engineering Applications of Artificial Intelligence, Elsevier",
+    title: "Enhancing Driver Assistance Systems with Field-Programmable Gate Array Based Image Filtering: Implementation of Adaptive Image Processing Framework for Real-Time Filtering",
+    authors: "A. Arul Edwin Raj, Nabihah Binti Ahmad, J. Jeffin Gracewell, R. Renugadevi, C. T. Kalaivani",
+    journal: "Engineering Applications of Artificial Intelligence, Elsevier, Vol. 160, Article 111921",
     year: 2025,
     doi: "10.1016/j.engappai.2025.111921",
     citations: 3
   },
   {
-    id: 4,
+    id: 8,
     type: "Journal",
     title: "Dynamic Edge Clustering and Task Scheduling for Edge Assisted Metaverse System",
     authors: "R. Renugadevi, C. T. Kalaivani, A. Arul Edwin Raj, Jeffin Gracewell",
@@ -84,7 +124,7 @@ const publications = [
     citations: 8
   },
   {
-    id: 5,
+    id: 9,
     type: "Journal",
     title: "Revolutionizing Heart Disease Prediction with Quantum-Enhanced Machine Learning",
     authors: "Babu S.V., Ramya P. & Gracewell J.",
@@ -94,7 +134,7 @@ const publications = [
     citations: 22
   },
   {
-    id: 6,
+    id: 10,
     type: "Journal",
     title: "A Turbulent Flow Optimized Deep Fused Ensemble Model for Sentiment Analysis",
     authors: "Aarthi E., Gracewell J. J. et al.",
@@ -104,7 +144,7 @@ const publications = [
     citations: 11
   },
   {
-    id: 7,
+    id: 11,
     type: "Journal",
     title: "Reinforcement Learning Based Blockchain Model for Revoking Unauthorized Access in IoT Mobile Edge Computing",
     authors: "C. T. Kalaivani, R. Renugadevi, Jeffin Gracewell, A. Arul Edwin Raj",
@@ -114,17 +154,17 @@ const publications = [
     citations: 18
   },
   {
-    id: 8,
+    id: 12,
     type: "Journal",
     title: "Secure Wireless Sensor Network Transmission Using Reinforcement Learning and Homomorphic Encryption",
-    authors: "Sheela M.S., Jayakanth, Gracewell J. et al.",
-    journal: "International Journal of Data Science and Analytics, Springer",
-    year: 2024,
+    authors: "M. Sahaya Sheela, J. Jayakanth, A. Ramathilagam, Jeffin Gracewell",
+    journal: "International Journal of Data Science and Analytics, Springer, Vol. 20, pp. 2851–2870",
+    year: 2025,
     doi: "10.1007/s41060-024-00633-7",
     citations: 9
   },
   {
-    id: 9,
+    id: 13,
     type: "Journal",
     title: "Dynamic Background Modeling Using Deep Learning Autoencoder Network",
     authors: "Gracewell J. & John M.",
@@ -134,7 +174,7 @@ const publications = [
     citations: 47
   },
   {
-    id: 10,
+    id: 14,
     type: "Journal",
     title: "Content Deduplication with Granularity Tweak Based on Base and Deviation for Large Text Dataset",
     authors: "Venkatesh Babu, Ramya, Jeffin Gracewell",
@@ -144,7 +184,7 @@ const publications = [
     citations: 15
   },
   {
-    id: 11,
+    id: 15,
     type: "Conference",
     title: "Detecting Human Behavior from a Silhouette Using Convolutional Neural Networks",
     authors: "Gracewell J. et al.",
@@ -154,7 +194,7 @@ const publications = [
     citations: 12
   },
   {
-    id: 12,
+    id: 16,
     type: "Conference",
     title: "Image Fusion for Improved Situational Awareness in Military Operations Using Machine Learning",
     authors: "J. Gracewell, R. Santhosh and V. Sabarish",
@@ -164,7 +204,7 @@ const publications = [
     citations: 4
   },
   {
-    id: 13,
+    id: 17,
     type: "Conference",
     title: "Applying Machine Learning Algorithms for Classification of Sleep Disorders",
     authors: "R. Haneef, N. M. Rao and J. J. Gracewell",
@@ -174,7 +214,7 @@ const publications = [
     citations: 3
   },
   {
-    id: 14,
+    id: 18,
     type: "Conference",
     title: "Case Study on Implementation of Li-Fi Technologies in Controlling Home Appliances Using IoT",
     authors: "Jeffin Gracewell, Sirivelu Vedeepya, Swetha Jeevith",
